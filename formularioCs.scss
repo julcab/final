@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: url("https://www.10wallpaper.com/wallpaper/1680x1050/1507/ferrari_458_italia-High_Quality_HD_Wallpaper_1680x1050.jpg") no-repeat left top;
+    background-size: 100% 100vh;
+    background-attachment: fixed;
+    font-family: 'Titillium Web', sans-serif;
+    background-color: black;
+}
+form{
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    width: 450px;
+    height: auto;
+    background: rgba($color: white, $alpha: .3);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    text-align: center;
+     }
+.centrar{
+    display: flex;
+    justify-content: center;
+}
+div form h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+input, textarea{
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+.boton{
+    background: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.boton:hover{
+    cursor: pointer;
+}
+.letraDelProyecto{
+    font-family: 'Titillium Web', sans-serif;
+    }
+nav {
+    font-family: 'Titillium Web', sans-serif;
+        background-color: white;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 100px 0px 100px;
+        font-weight: 1000;
+        ul{
+            display: flex;
+            list-style: none;
+            padding-top: 1.25%;
+        }
+        ul li{
+            padding: 0px 20px 0px 20px;
+        }
+        ul li a{
+            text-decoration: none;
+            color: black;
+            letter-spacing: 1px;
+            font-size: 20px;
+            padding-left: 5px;
+            padding-right: 5px;
+            transition: all 0.1s ease;
+            font-weight: bold;
+        }
+        ul li a:hover{
+            background-color: black;
+            border-radius: 5px;
+          }
+        .logo{
+            color: black;
+            font-size: 33px;
+            
+        }
+        a:hover{
+            color: white;
+        }
+    }
+    @media(max-width: 940px){
+        nav ul{
+            position: absolute;
+            top: 63px;
+            left: 0px;
+            height: auto;
+            width: 100%;
+            display: block;
+            text-align: center;
+            z-index: 1;
+            background-color: white;
+        }
+        nav ul li{
+            margin: 20px 0;
+            display: block;
+            position: static;
+        }
+        .nav-button{
+            display: inline-block !important;
+        }
+        .desaparece{
+         display: none  ;   
+        }
+    }
+    @media(max-width: 480px){
+        form{
+            width: 100%;
+        }
+    }
+    button{
+        background-color: white;
+        border-color: black;
+        border: 3px;
+        border-style: solid;
+        padding-left: 1px;
+    }
+    .nav-button{
+        display: none ;
+    }
+    .footer{
+        background-color: white; 
+        p{
+            color: black;
+            font-size: 18px;
+            text-align: center;
+        }
+        h2{
+            color: #000;
+            text-align: center;
+            font-weight: bold;
+        }
+        }

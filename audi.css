@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  border: 0;
+}
+
+section h3 {
+  color: #916235;
+  text-align: center;
+  font-weight: bold;
+}
+
+h4 {
+  color: #916235;
+}
+
+p {
+  color: #916235;
+}
+
+section a {
+  text-decoration: none;
+  color: #916235;
+}
+
+nav {
+  background-color: #916235;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0px 100px 0px 100px;
+  font-weight: 1000;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  padding-top: 1.25%;
+}
+
+nav ul li {
+  padding: 0px 20px 0px 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  letter-spacing: 1px;
+  font-size: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  -webkit-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  background-color: black;
+  border-radius: 5px;
+}
+
+nav .logo {
+  color: black;
+  font-size: 33px;
+}
+
+nav a:hover {
+  color: #916235;
+}
+
+@media (max-width: 940px) {
+  nav ul {
+    position: absolute;
+    top: 63px;
+    left: 0px;
+    height: auto;
+    width: 100%;
+    display: block;
+    text-align: center;
+    z-index: 1;
+    background-color: #916235;
+  }
+  nav ul li {
+    margin: 20px 0;
+    display: block;
+    position: static;
+  }
+  .nav-button {
+    display: inline-block !important;
+  }
+  .desaparece {
+    display: none;
+  }
+}
+
+button {
+  background-color: #916235;
+  border-color: black;
+  border: 3px;
+  border-style: solid;
+  padding-left: 1px;
+}
+
+.nav-button {
+  display: none;
+}
+
+.letraProy {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.fondo {
+  background-color: black;
+}
+
+.rot:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: 2s;
+  transition: 2s;
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+}
+
+.footer {
+  background-color: #916235;
+}
+
+.footer p {
+  color: black;
+  font-size: 18px;
+  text-align: center;
+}
+
+.footer h2 {
+  color: #000;
+  text-align: center;
+  font-weight: bold;
+}
+
+.textCenter {
+  text-align: center;
+}
+/*# sourceMappingURL=audi.css.map */
